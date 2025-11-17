@@ -1,0 +1,33 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0;
+    background-color: rgba(89, 98, 98, 0.245);
+    height: 80px;
+}
+.navleft h1{
+    margin: 30;
+    font-size: 22px;
+}
+.navcenter{
+    font-size: 50px;
+}
+.navright{
+    margin: 30;
+    font-size: 22px;
+}
+.button1{
+    background: #3b3b3b0e;
+    border: 0px;
+    border-radius: 25px;
+    width: 80px ;
+    height: 30px;
+}
+.button2{
+    background: #3b3b3b0e;
+    border: 0px;
+    border-radius:50%;
+    width: 40px ;
+    height: 40px;
+}
