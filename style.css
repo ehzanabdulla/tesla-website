@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
 .nav{
     display: flex;
     flex-direction: row;
@@ -5,6 +10,7 @@
     margin:0;
     background-color: rgba(89, 98, 98, 0.245);
     height: 80px;
+    align-items: center;
 }
 .navleft h1{
     margin: 30;
@@ -12,6 +18,7 @@
 }
 .navcenter{
     font-size: 50px;
+    margin-bottom: 20px;
 }
 .navright{
     margin: 30;
@@ -39,4 +46,7 @@
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+.img1{
+    width: 1521px;
 }
